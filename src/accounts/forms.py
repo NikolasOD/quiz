@@ -77,3 +77,13 @@ class UserUpdateForm(UserChangeForm):
             'city',
             'avatar',
         )
+
+
+class UserReactivationForm(forms.ModelForm):
+    email = forms.EmailField(label='email')
+
+    class Meta:
+        model = get_user_model()
+        fields = (
+            'email',
+        )
