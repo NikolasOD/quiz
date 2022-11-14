@@ -10,7 +10,8 @@ from django.urls import reverse_lazy
 from django.views.generic import CreateView
 from django.views.generic import UpdateView
 
-from .forms import UserRegisterForm, UserUpdateForm
+from .apps import user_register
+from .forms import UserReactivationForm, UserRegisterForm, UserUpdateForm
 from .utils import signer
 
 
@@ -19,6 +20,17 @@ class UserRegisterView(CreateView):
     template_name = 'accounts/user_register.html'
     success_url = reverse_lazy('accounts:register_done')
     form_class = UserRegisterForm
+
+
+def user_reactivation_view(request):
+    if request.method == 'GET':
+        form = UserReactivationForm()
+    elif request.method == 'POST':
+        email = request.POST['email']
+        user = get_object_or_404(get_user_model(), email=email)
+        user_register.send(None, instance=user)
+        return render(request, 'accounts/user_reactivation_requested.html')
+    return render(request, 'accounts/user_reactivate.html', {'form': form})
 
 
 def user_activate(request, sign):
