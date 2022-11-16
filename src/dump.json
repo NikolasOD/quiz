@@ -1,0 +1,2666 @@
+[
+{
+   "model": "quiz.exam",
+   "pk": 1,
+   "fields": {
+      "create_timestamp": "2022-11-14T13:08:17.600Z",
+      "update_timestamp": "2022-11-15T17:38:01.280Z",
+      "uuid": "83401524-a5a9-40c5-8832-8cd85ba50192",
+      "title": "Mathematics",
+      "description": "Small math test",
+      "level": 0
+   }
+},
+{
+   "model": "quiz.exam",
+   "pk": 2,
+   "fields": {
+      "create_timestamp": "2022-11-16T12:46:39.130Z",
+      "update_timestamp": "2022-11-16T13:15:02.527Z",
+      "uuid": "2e8ad7f5-ec0c-49a7-8cf2-93040b27d6b7",
+      "title": "HTML",
+      "description": "HTML test for beginners",
+      "level": 0
+   }
+},
+{
+   "model": "quiz.exam",
+   "pk": 3,
+   "fields": {
+      "create_timestamp": "2022-11-16T13:43:32.367Z",
+      "update_timestamp": "2022-11-16T13:43:32.368Z",
+      "uuid": "e55d31f4-dfbf-46ac-b004-bc05f4562769",
+      "title": "SQL",
+      "description": "SQL test for beginners",
+      "level": 0
+   }
+},
+{
+   "model": "quiz.exam",
+   "pk": 4,
+   "fields": {
+      "create_timestamp": "2022-11-16T14:11:36.764Z",
+      "update_timestamp": "2022-11-16T14:52:56.622Z",
+      "uuid": "549e2d00-0c8d-41c2-82af-9ec24c25b95c",
+      "title": "Python Basic",
+      "description": "Python test for beginners",
+      "level": 0
+   }
+},
+{
+   "model": "quiz.exam",
+   "pk": 5,
+   "fields": {
+      "create_timestamp": "2022-11-16T14:54:59.611Z",
+      "update_timestamp": "2022-11-16T15:20:42.885Z",
+      "uuid": "97589e58-5794-40ee-badb-3b3fa246ab77",
+      "title": "Python Intermediate",
+      "description": "Python test for intermediate level",
+      "level": 1
+   }
+},
+{
+   "model": "quiz.question",
+   "pk": 1,
+   "fields": {
+      "create_timestamp": "2022-11-14T13:09:30.879Z",
+      "update_timestamp": "2022-11-14T13:09:30.879Z",
+      "exam": 1,
+      "order_num": 1,
+      "text": "2 + 2 = ?",
+      "image": ""
+   }
+},
+{
+   "model": "quiz.question",
+   "pk": 2,
+   "fields": {
+      "create_timestamp": "2022-11-14T13:10:14.242Z",
+      "update_timestamp": "2022-11-15T12:12:04.984Z",
+      "exam": 1,
+      "order_num": 2,
+      "text": "3 * 3 = ?",
+      "image": ""
+   }
+},
+{
+   "model": "quiz.question",
+   "pk": 3,
+   "fields": {
+      "create_timestamp": "2022-11-14T13:10:50.069Z",
+      "update_timestamp": "2022-11-15T12:13:47.775Z",
+      "exam": 1,
+      "order_num": 3,
+      "text": "6 / 2 = ?",
+      "image": ""
+   }
+},
+{
+   "model": "quiz.question",
+   "pk": 4,
+   "fields": {
+      "create_timestamp": "2022-11-14T13:11:40.705Z",
+      "update_timestamp": "2022-11-15T12:14:57.011Z",
+      "exam": 1,
+      "order_num": 4,
+      "text": "35 - 21 = ?",
+      "image": ""
+   }
+},
+{
+   "model": "quiz.question",
+   "pk": 5,
+   "fields": {
+      "create_timestamp": "2022-11-15T16:57:57.233Z",
+      "update_timestamp": "2022-11-15T17:38:38.642Z",
+      "exam": 1,
+      "order_num": 5,
+      "text": "5 * 3 = ?",
+      "image": ""
+   }
+},
+{
+   "model": "quiz.question",
+   "pk": 6,
+   "fields": {
+      "create_timestamp": "2022-11-16T12:46:39.131Z",
+      "update_timestamp": "2022-11-16T12:50:21.481Z",
+      "exam": 2,
+      "order_num": 1,
+      "text": "HTML code is used to",
+      "image": ""
+   }
+},
+{
+   "model": "quiz.question",
+   "pk": 7,
+   "fields": {
+      "create_timestamp": "2022-11-16T12:46:39.131Z",
+      "update_timestamp": "2022-11-16T12:49:15.380Z",
+      "exam": 2,
+      "order_num": 2,
+      "text": "Which of the following is the valid paragraph tag?",
+      "image": ""
+   }
+},
+{
+   "model": "quiz.question",
+   "pk": 8,
+   "fields": {
+      "create_timestamp": "2022-11-16T12:46:39.131Z",
+      "update_timestamp": "2022-11-16T12:48:20.238Z",
+      "exam": 2,
+      "order_num": 3,
+      "text": "Which of the following will create a text paragraph on a web page?",
+      "image": ""
+   }
+},
+{
+   "model": "quiz.question",
+   "pk": 9,
+   "fields": {
+      "create_timestamp": "2022-11-16T12:53:51.763Z",
+      "update_timestamp": "2022-11-16T12:56:41.542Z",
+      "exam": 2,
+      "order_num": 4,
+      "text": "What's the HTML tag for a Level 1 heading element?",
+      "image": ""
+   }
+},
+{
+   "model": "quiz.question",
+   "pk": 10,
+   "fields": {
+      "create_timestamp": "2022-11-16T12:53:51.763Z",
+      "update_timestamp": "2022-11-16T12:55:51.182Z",
+      "exam": 2,
+      "order_num": 5,
+      "text": "Select the 2 correct statements (select all that apply)",
+      "image": ""
+   }
+},
+{
+   "model": "quiz.question",
+   "pk": 11,
+   "fields": {
+      "create_timestamp": "2022-11-16T12:58:28.887Z",
+      "update_timestamp": "2022-11-16T13:01:24.223Z",
+      "exam": 2,
+      "order_num": 6,
+      "text": "What is the correct extension for HTML files?",
+      "image": ""
+   }
+},
+{
+   "model": "quiz.question",
+   "pk": 12,
+   "fields": {
+      "create_timestamp": "2022-11-16T12:58:28.887Z",
+      "update_timestamp": "2022-11-16T13:00:22.618Z",
+      "exam": 2,
+      "order_num": 7,
+      "text": "Where should you put the title tag?",
+      "image": ""
+   }
+},
+{
+   "model": "quiz.question",
+   "pk": 13,
+   "fields": {
+      "create_timestamp": "2022-11-16T13:03:00.472Z",
+      "update_timestamp": "2022-11-16T13:05:23.849Z",
+      "exam": 2,
+      "order_num": 8,
+      "text": "What is HTML?",
+      "image": ""
+   }
+},
+{
+   "model": "quiz.question",
+   "pk": 14,
+   "fields": {
+      "create_timestamp": "2022-11-16T13:03:00.472Z",
+      "update_timestamp": "2022-11-16T13:03:59.106Z",
+      "exam": 2,
+      "order_num": 9,
+      "text": "Of which main parts does the HTML file consist of?",
+      "image": ""
+   }
+},
+{
+   "model": "quiz.question",
+   "pk": 15,
+   "fields": {
+      "create_timestamp": "2022-11-16T13:06:14.234Z",
+      "update_timestamp": "2022-11-16T13:06:49.742Z",
+      "exam": 2,
+      "order_num": 10,
+      "text": "What tags are used to indicate headings?",
+      "image": ""
+   }
+},
+{
+   "model": "quiz.question",
+   "pk": 16,
+   "fields": {
+      "create_timestamp": "2022-11-16T13:10:46.287Z",
+      "update_timestamp": "2022-11-16T13:11:26.143Z",
+      "exam": 2,
+      "order_num": 11,
+      "text": "What tag is used to create a line-break without an extra space between the text blocks?",
+      "image": ""
+   }
+},
+{
+   "model": "quiz.question",
+   "pk": 17,
+   "fields": {
+      "create_timestamp": "2022-11-16T13:12:27.252Z",
+      "update_timestamp": "2022-11-16T13:13:21.733Z",
+      "exam": 2,
+      "order_num": 12,
+      "text": "Which two tags below make the text visually bold?",
+      "image": ""
+   }
+},
+{
+   "model": "quiz.question",
+   "pk": 18,
+   "fields": {
+      "create_timestamp": "2022-11-16T13:43:32.368Z",
+      "update_timestamp": "2022-11-16T13:45:11.423Z",
+      "exam": 3,
+      "order_num": 1,
+      "text": "Database tables are made up of:",
+      "image": ""
+   }
+},
+{
+   "model": "quiz.question",
+   "pk": 19,
+   "fields": {
+      "create_timestamp": "2022-11-16T13:43:32.369Z",
+      "update_timestamp": "2022-11-16T13:47:46.509Z",
+      "exam": 3,
+      "order_num": 2,
+      "text": "Whenever you run multiple queries:",
+      "image": ""
+   }
+},
+{
+   "model": "quiz.question",
+   "pk": 20,
+   "fields": {
+      "create_timestamp": "2022-11-16T13:43:32.369Z",
+      "update_timestamp": "2022-11-16T13:51:27.081Z",
+      "exam": 3,
+      "order_num": 3,
+      "text": "Which is true about whitespaces?",
+      "image": ""
+   }
+},
+{
+   "model": "quiz.question",
+   "pk": 21,
+   "fields": {
+      "create_timestamp": "2022-11-16T13:43:32.369Z",
+      "update_timestamp": "2022-11-16T13:52:58.311Z",
+      "exam": 3,
+      "order_num": 4,
+      "text": "Why use primary keys?",
+      "image": ""
+   }
+},
+{
+   "model": "quiz.question",
+   "pk": 22,
+   "fields": {
+      "create_timestamp": "2022-11-16T13:43:32.369Z",
+      "update_timestamp": "2022-11-16T13:56:02.172Z",
+      "exam": 3,
+      "order_num": 5,
+      "text": "What is the name of the function that converts the text to lowercase?",
+      "image": ""
+   }
+},
+{
+   "model": "quiz.question",
+   "pk": 23,
+   "fields": {
+      "create_timestamp": "2022-11-16T13:43:32.370Z",
+      "update_timestamp": "2022-11-16T13:57:15.162Z",
+      "exam": 3,
+      "order_num": 6,
+      "text": "Which keyword is the correct one for custom columns?",
+      "image": ""
+   }
+},
+{
+   "model": "quiz.question",
+   "pk": 24,
+   "fields": {
+      "create_timestamp": "2022-11-16T13:43:32.370Z",
+      "update_timestamp": "2022-11-16T13:58:42.170Z",
+      "exam": 3,
+      "order_num": 7,
+      "text": "What is the name of the aggregate function for calculating the sum?",
+      "image": ""
+   }
+},
+{
+   "model": "quiz.question",
+   "pk": 25,
+   "fields": {
+      "create_timestamp": "2022-11-16T13:43:32.371Z",
+      "update_timestamp": "2022-11-16T14:00:58.814Z",
+      "exam": 3,
+      "order_num": 8,
+      "text": "What does the Table Join do?",
+      "image": ""
+   }
+},
+{
+   "model": "quiz.question",
+   "pk": 26,
+   "fields": {
+      "create_timestamp": "2022-11-16T13:43:32.371Z",
+      "update_timestamp": "2022-11-16T14:04:10.898Z",
+      "exam": 3,
+      "order_num": 9,
+      "text": "Which choice is the correct command to use when creating a table?",
+      "image": ""
+   }
+},
+{
+   "model": "quiz.question",
+   "pk": 27,
+   "fields": {
+      "create_timestamp": "2022-11-16T13:43:32.371Z",
+      "update_timestamp": "2022-11-16T14:05:29.883Z",
+      "exam": 3,
+      "order_num": 10,
+      "text": "Which command is used to create a view?",
+      "image": ""
+   }
+},
+{
+   "model": "quiz.question",
+   "pk": 28,
+   "fields": {
+      "create_timestamp": "2022-11-16T13:43:32.372Z",
+      "update_timestamp": "2022-11-16T14:07:35.327Z",
+      "exam": 3,
+      "order_num": 11,
+      "text": "Which choice is the correct command for changing the name of a table?",
+      "image": ""
+   }
+},
+{
+   "model": "quiz.question",
+   "pk": 30,
+   "fields": {
+      "create_timestamp": "2022-11-16T14:11:36.764Z",
+      "update_timestamp": "2022-11-16T14:13:58.097Z",
+      "exam": 4,
+      "order_num": 1,
+      "text": "Which statement is used to send a message or output to the screen?",
+      "image": ""
+   }
+},
+{
+   "model": "quiz.question",
+   "pk": 31,
+   "fields": {
+      "create_timestamp": "2022-11-16T14:11:36.765Z",
+      "update_timestamp": "2022-11-16T14:15:14.895Z",
+      "exam": 4,
+      "order_num": 2,
+      "text": "The text in a print statement should be enclosed in:",
+      "image": ""
+   }
+},
+{
+   "model": "quiz.question",
+   "pk": 32,
+   "fields": {
+      "create_timestamp": "2022-11-16T14:11:36.765Z",
+      "update_timestamp": "2022-11-16T14:17:49.808Z",
+      "exam": 4,
+      "order_num": 3,
+      "text": "What is the output of this code? print((4 + 8) / 2)",
+      "image": ""
+   }
+},
+{
+   "model": "quiz.question",
+   "pk": 33,
+   "fields": {
+      "create_timestamp": "2022-11-16T14:11:36.765Z",
+      "update_timestamp": "2022-11-16T14:19:52.106Z",
+      "exam": 4,
+      "order_num": 4,
+      "text": "Select the options that represent a string:",
+      "image": ""
+   }
+},
+{
+   "model": "quiz.question",
+   "pk": 34,
+   "fields": {
+      "create_timestamp": "2022-11-16T14:11:36.765Z",
+      "update_timestamp": "2022-11-16T14:21:05.825Z",
+      "exam": 4,
+      "order_num": 5,
+      "text": "Which of the following is a float?",
+      "image": ""
+   }
+},
+{
+   "model": "quiz.question",
+   "pk": 35,
+   "fields": {
+      "create_timestamp": "2022-11-16T14:11:36.765Z",
+      "update_timestamp": "2022-11-16T14:22:38.366Z",
+      "exam": 4,
+      "order_num": 6,
+      "text": "What is the output of this code? print(6**2)",
+      "image": ""
+   }
+},
+{
+   "model": "quiz.question",
+   "pk": 36,
+   "fields": {
+      "create_timestamp": "2022-11-16T14:11:36.766Z",
+      "update_timestamp": "2022-11-16T14:24:08.919Z",
+      "exam": 4,
+      "order_num": 7,
+      "text": "What is the result of the following operation? 7 % (5 // 2)",
+      "image": ""
+   }
+},
+{
+   "model": "quiz.question",
+   "pk": 37,
+   "fields": {
+      "create_timestamp": "2022-11-16T14:11:36.766Z",
+      "update_timestamp": "2022-11-16T14:43:48.894Z",
+      "exam": 4,
+      "order_num": 8,
+      "text": "Select the operator that is used to determine the remainder of a division",
+      "image": ""
+   }
+},
+{
+   "model": "quiz.question",
+   "pk": 38,
+   "fields": {
+      "create_timestamp": "2022-11-16T14:11:36.766Z",
+      "update_timestamp": "2022-11-16T14:46:44.012Z",
+      "exam": 4,
+      "order_num": 9,
+      "text": "A variable has a name and a:",
+      "image": ""
+   }
+},
+{
+   "model": "quiz.question",
+   "pk": 39,
+   "fields": {
+      "create_timestamp": "2022-11-16T14:11:36.766Z",
+      "update_timestamp": "2022-11-16T14:48:26.247Z",
+      "exam": 4,
+      "order_num": 10,
+      "text": "What does the str() function do?",
+      "image": ""
+   }
+},
+{
+   "model": "quiz.question",
+   "pk": 40,
+   "fields": {
+      "create_timestamp": "2022-11-16T14:11:36.766Z",
+      "update_timestamp": "2022-11-16T14:50:44.211Z",
+      "exam": 4,
+      "order_num": 11,
+      "text": "Which construct can be used to iterate through a list?",
+      "image": ""
+   }
+},
+{
+   "model": "quiz.question",
+   "pk": 41,
+   "fields": {
+      "create_timestamp": "2022-11-16T14:11:36.767Z",
+      "update_timestamp": "2022-11-16T14:52:29.755Z",
+      "exam": 4,
+      "order_num": 12,
+      "text": "How many numbers does the following range generate? x = range(5)",
+      "image": ""
+   }
+},
+{
+   "model": "quiz.question",
+   "pk": 42,
+   "fields": {
+      "create_timestamp": "2022-11-16T14:54:59.611Z",
+      "update_timestamp": "2022-11-16T14:57:44.122Z",
+      "exam": 5,
+      "order_num": 1,
+      "text": "Which of these values can't be used as a dictionary key?",
+      "image": ""
+   }
+},
+{
+   "model": "quiz.question",
+   "pk": 43,
+   "fields": {
+      "create_timestamp": "2022-11-16T14:54:59.612Z",
+      "update_timestamp": "2022-11-16T15:02:29.058Z",
+      "exam": 5,
+      "order_num": 2,
+      "text": "What does this list comprehension create?",
+      "image": ""
+   }
+},
+{
+   "model": "quiz.question",
+   "pk": 44,
+   "fields": {
+      "create_timestamp": "2022-11-16T14:54:59.612Z",
+      "update_timestamp": "2022-11-16T15:04:03.727Z",
+      "exam": 5,
+      "order_num": 3,
+      "text": "Which of the following data types does not allow duplicate values?",
+      "image": ""
+   }
+},
+{
+   "model": "quiz.question",
+   "pk": 45,
+   "fields": {
+      "create_timestamp": "2022-11-16T14:54:59.612Z",
+      "update_timestamp": "2022-11-16T15:05:25.126Z",
+      "exam": 5,
+      "order_num": 4,
+      "text": "What can be described  as an immutable list?",
+      "image": ""
+   }
+},
+{
+   "model": "quiz.question",
+   "pk": 46,
+   "fields": {
+      "create_timestamp": "2022-11-16T14:54:59.612Z",
+      "update_timestamp": "2022-11-16T15:06:10.562Z",
+      "exam": 5,
+      "order_num": 5,
+      "text": "Can you slice a tuple?",
+      "image": ""
+   }
+},
+{
+   "model": "quiz.question",
+   "pk": 47,
+   "fields": {
+      "create_timestamp": "2022-11-16T14:54:59.612Z",
+      "update_timestamp": "2022-11-16T15:08:43.086Z",
+      "exam": 5,
+      "order_num": 6,
+      "text": "Which of the following is not an advantage of using pure functions?",
+      "image": ""
+   }
+},
+{
+   "model": "quiz.question",
+   "pk": 48,
+   "fields": {
+      "create_timestamp": "2022-11-16T14:54:59.613Z",
+      "update_timestamp": "2022-11-16T15:10:02.654Z",
+      "exam": 5,
+      "order_num": 7,
+      "text": "What are anonymous functions called?",
+      "image": ""
+   }
+},
+{
+   "model": "quiz.question",
+   "pk": 49,
+   "fields": {
+      "create_timestamp": "2022-11-16T14:54:59.613Z",
+      "update_timestamp": "2022-11-16T15:12:42.684Z",
+      "exam": 5,
+      "order_num": 8,
+      "text": "What are decorators?",
+      "image": ""
+   }
+},
+{
+   "model": "quiz.question",
+   "pk": 50,
+   "fields": {
+      "create_timestamp": "2022-11-16T14:54:59.613Z",
+      "update_timestamp": "2022-11-16T15:15:37.700Z",
+      "exam": 5,
+      "order_num": 9,
+      "text": "What is the base case of a recursive function?",
+      "image": ""
+   }
+},
+{
+   "model": "quiz.question",
+   "pk": 51,
+   "fields": {
+      "create_timestamp": "2022-11-16T14:54:59.613Z",
+      "update_timestamp": "2022-11-16T15:17:32.450Z",
+      "exam": 5,
+      "order_num": 10,
+      "text": "How is *args accessed inside a function?",
+      "image": ""
+   }
+},
+{
+   "model": "quiz.question",
+   "pk": 52,
+   "fields": {
+      "create_timestamp": "2022-11-16T14:54:59.613Z",
+      "update_timestamp": "2022-11-16T15:18:50.104Z",
+      "exam": 5,
+      "order_num": 11,
+      "text": "What kind of object is kwargs?",
+      "image": ""
+   }
+},
+{
+   "model": "quiz.question",
+   "pk": 53,
+   "fields": {
+      "create_timestamp": "2022-11-16T14:54:59.614Z",
+      "update_timestamp": "2022-11-16T15:20:34.026Z",
+      "exam": 5,
+      "order_num": 12,
+      "text": "What type of object is a method?",
+      "image": ""
+   }
+},
+{
+   "model": "quiz.choice",
+   "pk": 1,
+   "fields": {
+      "create_timestamp": "2022-11-14T13:12:59.180Z",
+      "update_timestamp": "2022-11-14T13:12:59.180Z",
+      "question": 1,
+      "text": "2",
+      "is_correct": false
+   }
+},
+{
+   "model": "quiz.choice",
+   "pk": 2,
+   "fields": {
+      "create_timestamp": "2022-11-14T13:13:11.183Z",
+      "update_timestamp": "2022-11-14T13:13:11.183Z",
+      "question": 1,
+      "text": "4",
+      "is_correct": true
+   }
+},
+{
+   "model": "quiz.choice",
+   "pk": 3,
+   "fields": {
+      "create_timestamp": "2022-11-14T13:13:17.496Z",
+      "update_timestamp": "2022-11-14T13:13:17.496Z",
+      "question": 1,
+      "text": "8",
+      "is_correct": false
+   }
+},
+{
+   "model": "quiz.choice",
+   "pk": 4,
+   "fields": {
+      "create_timestamp": "2022-11-14T13:13:35.485Z",
+      "update_timestamp": "2022-11-14T13:13:35.485Z",
+      "question": 1,
+      "text": "22",
+      "is_correct": false
+   }
+},
+{
+   "model": "quiz.choice",
+   "pk": 5,
+   "fields": {
+      "create_timestamp": "2022-11-15T12:12:04.985Z",
+      "update_timestamp": "2022-11-15T12:12:04.985Z",
+      "question": 2,
+      "text": "9",
+      "is_correct": true
+   }
+},
+{
+   "model": "quiz.choice",
+   "pk": 6,
+   "fields": {
+      "create_timestamp": "2022-11-15T12:12:04.985Z",
+      "update_timestamp": "2022-11-15T12:12:04.985Z",
+      "question": 2,
+      "text": "3",
+      "is_correct": false
+   }
+},
+{
+   "model": "quiz.choice",
+   "pk": 7,
+   "fields": {
+      "create_timestamp": "2022-11-15T12:12:04.986Z",
+      "update_timestamp": "2022-11-15T12:12:04.986Z",
+      "question": 2,
+      "text": "1",
+      "is_correct": false
+   }
+},
+{
+   "model": "quiz.choice",
+   "pk": 8,
+   "fields": {
+      "create_timestamp": "2022-11-15T12:12:04.986Z",
+      "update_timestamp": "2022-11-15T12:12:04.986Z",
+      "question": 2,
+      "text": "6",
+      "is_correct": false
+   }
+},
+{
+   "model": "quiz.choice",
+   "pk": 9,
+   "fields": {
+      "create_timestamp": "2022-11-15T12:13:47.776Z",
+      "update_timestamp": "2022-11-15T12:13:47.776Z",
+      "question": 3,
+      "text": "12",
+      "is_correct": false
+   }
+},
+{
+   "model": "quiz.choice",
+   "pk": 10,
+   "fields": {
+      "create_timestamp": "2022-11-15T12:13:47.776Z",
+      "update_timestamp": "2022-11-15T12:13:47.776Z",
+      "question": 3,
+      "text": "2",
+      "is_correct": false
+   }
+},
+{
+   "model": "quiz.choice",
+   "pk": 11,
+   "fields": {
+      "create_timestamp": "2022-11-15T12:13:47.776Z",
+      "update_timestamp": "2022-11-15T12:13:47.776Z",
+      "question": 3,
+      "text": "5",
+      "is_correct": false
+   }
+},
+{
+   "model": "quiz.choice",
+   "pk": 12,
+   "fields": {
+      "create_timestamp": "2022-11-15T12:13:47.776Z",
+      "update_timestamp": "2022-11-15T12:13:47.776Z",
+      "question": 3,
+      "text": "3",
+      "is_correct": true
+   }
+},
+{
+   "model": "quiz.choice",
+   "pk": 13,
+   "fields": {
+      "create_timestamp": "2022-11-15T12:14:57.012Z",
+      "update_timestamp": "2022-11-15T12:14:57.012Z",
+      "question": 4,
+      "text": "11",
+      "is_correct": false
+   }
+},
+{
+   "model": "quiz.choice",
+   "pk": 14,
+   "fields": {
+      "create_timestamp": "2022-11-15T12:14:57.012Z",
+      "update_timestamp": "2022-11-15T12:14:57.012Z",
+      "question": 4,
+      "text": "16",
+      "is_correct": false
+   }
+},
+{
+   "model": "quiz.choice",
+   "pk": 15,
+   "fields": {
+      "create_timestamp": "2022-11-15T12:14:57.012Z",
+      "update_timestamp": "2022-11-15T12:14:57.012Z",
+      "question": 4,
+      "text": "14",
+      "is_correct": true
+   }
+},
+{
+   "model": "quiz.choice",
+   "pk": 16,
+   "fields": {
+      "create_timestamp": "2022-11-15T12:14:57.012Z",
+      "update_timestamp": "2022-11-15T12:14:57.012Z",
+      "question": 4,
+      "text": "18",
+      "is_correct": false
+   }
+},
+{
+   "model": "quiz.choice",
+   "pk": 17,
+   "fields": {
+      "create_timestamp": "2022-11-15T17:38:38.643Z",
+      "update_timestamp": "2022-11-15T17:38:38.643Z",
+      "question": 5,
+      "text": "23",
+      "is_correct": false
+   }
+},
+{
+   "model": "quiz.choice",
+   "pk": 18,
+   "fields": {
+      "create_timestamp": "2022-11-15T17:38:38.644Z",
+      "update_timestamp": "2022-11-15T17:38:38.644Z",
+      "question": 5,
+      "text": "15",
+      "is_correct": true
+   }
+},
+{
+   "model": "quiz.choice",
+   "pk": 19,
+   "fields": {
+      "create_timestamp": "2022-11-15T17:38:38.644Z",
+      "update_timestamp": "2022-11-15T17:38:38.644Z",
+      "question": 5,
+      "text": "8",
+      "is_correct": false
+   }
+},
+{
+   "model": "quiz.choice",
+   "pk": 20,
+   "fields": {
+      "create_timestamp": "2022-11-15T17:38:38.645Z",
+      "update_timestamp": "2022-11-15T17:38:38.645Z",
+      "question": 5,
+      "text": "30",
+      "is_correct": false
+   }
+},
+{
+   "model": "quiz.choice",
+   "pk": 21,
+   "fields": {
+      "create_timestamp": "2022-11-16T12:48:20.239Z",
+      "update_timestamp": "2022-11-16T12:48:20.239Z",
+      "question": 8,
+      "text": "<img source=\"Paragraph 1\">",
+      "is_correct": false
+   }
+},
+{
+   "model": "quiz.choice",
+   "pk": 22,
+   "fields": {
+      "create_timestamp": "2022-11-16T12:48:20.239Z",
+      "update_timestamp": "2022-11-16T12:48:20.239Z",
+      "question": 8,
+      "text": "<p>Paragraph 1</p>",
+      "is_correct": true
+   }
+},
+{
+   "model": "quiz.choice",
+   "pk": 23,
+   "fields": {
+      "create_timestamp": "2022-11-16T12:48:20.239Z",
+      "update_timestamp": "2022-11-16T12:48:20.239Z",
+      "question": 8,
+      "text": "<h1>Paragraph 1</h1>",
+      "is_correct": false
+   }
+},
+{
+   "model": "quiz.choice",
+   "pk": 24,
+   "fields": {
+      "create_timestamp": "2022-11-16T12:49:15.381Z",
+      "update_timestamp": "2022-11-16T12:49:15.381Z",
+      "question": 7,
+      "text": "[p]",
+      "is_correct": false
+   }
+},
+{
+   "model": "quiz.choice",
+   "pk": 25,
+   "fields": {
+      "create_timestamp": "2022-11-16T12:49:15.381Z",
+      "update_timestamp": "2022-11-16T12:49:15.381Z",
+      "question": 7,
+      "text": "<p>",
+      "is_correct": true
+   }
+},
+{
+   "model": "quiz.choice",
+   "pk": 26,
+   "fields": {
+      "create_timestamp": "2022-11-16T12:49:15.381Z",
+      "update_timestamp": "2022-11-16T12:49:15.381Z",
+      "question": 7,
+      "text": "{p}",
+      "is_correct": false
+   }
+},
+{
+   "model": "quiz.choice",
+   "pk": 27,
+   "fields": {
+      "create_timestamp": "2022-11-16T12:49:15.381Z",
+      "update_timestamp": "2022-11-16T12:49:15.381Z",
+      "question": 7,
+      "text": "(p)",
+      "is_correct": false
+   }
+},
+{
+   "model": "quiz.choice",
+   "pk": 28,
+   "fields": {
+      "create_timestamp": "2022-11-16T12:50:21.482Z",
+      "update_timestamp": "2022-11-16T12:50:21.482Z",
+      "question": 6,
+      "text": "draw",
+      "is_correct": false
+   }
+},
+{
+   "model": "quiz.choice",
+   "pk": 29,
+   "fields": {
+      "create_timestamp": "2022-11-16T12:50:21.482Z",
+      "update_timestamp": "2022-11-16T12:50:21.482Z",
+      "question": 6,
+      "text": "work with databases",
+      "is_correct": false
+   }
+},
+{
+   "model": "quiz.choice",
+   "pk": 30,
+   "fields": {
+      "create_timestamp": "2022-11-16T12:50:21.482Z",
+      "update_timestamp": "2022-11-16T12:50:21.482Z",
+      "question": 6,
+      "text": "structure the content of a web page",
+      "is_correct": true
+   }
+},
+{
+   "model": "quiz.choice",
+   "pk": 31,
+   "fields": {
+      "create_timestamp": "2022-11-16T12:55:51.183Z",
+      "update_timestamp": "2022-11-16T12:55:51.183Z",
+      "question": 10,
+      "text": "Images are examples of empty tags",
+      "is_correct": true
+   }
+},
+{
+   "model": "quiz.choice",
+   "pk": 32,
+   "fields": {
+      "create_timestamp": "2022-11-16T12:55:51.183Z",
+      "update_timestamp": "2022-11-16T12:55:51.183Z",
+      "question": 10,
+      "text": "Images don't require a closing tag",
+      "is_correct": true
+   }
+},
+{
+   "model": "quiz.choice",
+   "pk": 33,
+   "fields": {
+      "create_timestamp": "2022-11-16T12:55:51.183Z",
+      "update_timestamp": "2022-11-16T12:55:51.183Z",
+      "question": 10,
+      "text": "Headings are examples of empty tags",
+      "is_correct": false
+   }
+},
+{
+   "model": "quiz.choice",
+   "pk": 34,
+   "fields": {
+      "create_timestamp": "2022-11-16T12:56:41.543Z",
+      "update_timestamp": "2022-11-16T12:56:41.543Z",
+      "question": 9,
+      "text": "<p>",
+      "is_correct": false
+   }
+},
+{
+   "model": "quiz.choice",
+   "pk": 35,
+   "fields": {
+      "create_timestamp": "2022-11-16T12:56:41.543Z",
+      "update_timestamp": "2022-11-16T12:56:41.543Z",
+      "question": 9,
+      "text": "<img>",
+      "is_correct": false
+   }
+},
+{
+   "model": "quiz.choice",
+   "pk": 36,
+   "fields": {
+      "create_timestamp": "2022-11-16T12:56:41.543Z",
+      "update_timestamp": "2022-11-16T12:56:41.543Z",
+      "question": 9,
+      "text": "<h1>",
+      "is_correct": true
+   }
+},
+{
+   "model": "quiz.choice",
+   "pk": 37,
+   "fields": {
+      "create_timestamp": "2022-11-16T13:00:22.619Z",
+      "update_timestamp": "2022-11-16T13:00:22.619Z",
+      "question": 12,
+      "text": "Between the head tags",
+      "is_correct": true
+   }
+},
+{
+   "model": "quiz.choice",
+   "pk": 38,
+   "fields": {
+      "create_timestamp": "2022-11-16T13:00:22.619Z",
+      "update_timestamp": "2022-11-16T13:00:22.619Z",
+      "question": 12,
+      "text": "After the closing html tag",
+      "is_correct": false
+   }
+},
+{
+   "model": "quiz.choice",
+   "pk": 39,
+   "fields": {
+      "create_timestamp": "2022-11-16T13:00:22.619Z",
+      "update_timestamp": "2022-11-16T13:00:22.619Z",
+      "question": 12,
+      "text": "Before the html tag",
+      "is_correct": false
+   }
+},
+{
+   "model": "quiz.choice",
+   "pk": 40,
+   "fields": {
+      "create_timestamp": "2022-11-16T13:00:22.619Z",
+      "update_timestamp": "2022-11-16T13:00:22.619Z",
+      "question": 12,
+      "text": "Between the body tags",
+      "is_correct": false
+   }
+},
+{
+   "model": "quiz.choice",
+   "pk": 41,
+   "fields": {
+      "create_timestamp": "2022-11-16T13:01:24.224Z",
+      "update_timestamp": "2022-11-16T13:01:24.224Z",
+      "question": 11,
+      "text": ".css",
+      "is_correct": false
+   }
+},
+{
+   "model": "quiz.choice",
+   "pk": 42,
+   "fields": {
+      "create_timestamp": "2022-11-16T13:01:24.224Z",
+      "update_timestamp": "2022-11-16T13:01:24.224Z",
+      "question": 11,
+      "text": ".exe",
+      "is_correct": false
+   }
+},
+{
+   "model": "quiz.choice",
+   "pk": 43,
+   "fields": {
+      "create_timestamp": "2022-11-16T13:01:24.224Z",
+      "update_timestamp": "2022-11-16T13:01:24.224Z",
+      "question": 11,
+      "text": ".html",
+      "is_correct": true
+   }
+},
+{
+   "model": "quiz.choice",
+   "pk": 44,
+   "fields": {
+      "create_timestamp": "2022-11-16T13:01:24.224Z",
+      "update_timestamp": "2022-11-16T13:01:24.225Z",
+      "question": 11,
+      "text": ".txt",
+      "is_correct": false
+   }
+},
+{
+   "model": "quiz.choice",
+   "pk": 45,
+   "fields": {
+      "create_timestamp": "2022-11-16T13:03:59.107Z",
+      "update_timestamp": "2022-11-16T13:03:59.107Z",
+      "question": 14,
+      "text": "header and footer",
+      "is_correct": false
+   }
+},
+{
+   "model": "quiz.choice",
+   "pk": 46,
+   "fields": {
+      "create_timestamp": "2022-11-16T13:03:59.107Z",
+      "update_timestamp": "2022-11-16T13:03:59.107Z",
+      "question": 14,
+      "text": "head and body",
+      "is_correct": true
+   }
+},
+{
+   "model": "quiz.choice",
+   "pk": 47,
+   "fields": {
+      "create_timestamp": "2022-11-16T13:03:59.107Z",
+      "update_timestamp": "2022-11-16T13:03:59.107Z",
+      "question": 14,
+      "text": "eyes and mouth",
+      "is_correct": false
+   }
+},
+{
+   "model": "quiz.choice",
+   "pk": 48,
+   "fields": {
+      "create_timestamp": "2022-11-16T13:03:59.107Z",
+      "update_timestamp": "2022-11-16T13:03:59.107Z",
+      "question": 14,
+      "text": "hands and feet",
+      "is_correct": false
+   }
+},
+{
+   "model": "quiz.choice",
+   "pk": 49,
+   "fields": {
+      "create_timestamp": "2022-11-16T13:05:23.850Z",
+      "update_timestamp": "2022-11-16T13:05:23.850Z",
+      "question": 13,
+      "text": "Hypertext Library",
+      "is_correct": false
+   }
+},
+{
+   "model": "quiz.choice",
+   "pk": 50,
+   "fields": {
+      "create_timestamp": "2022-11-16T13:05:23.850Z",
+      "update_timestamp": "2022-11-16T13:05:23.850Z",
+      "question": 13,
+      "text": "Markup Language",
+      "is_correct": true
+   }
+},
+{
+   "model": "quiz.choice",
+   "pk": 51,
+   "fields": {
+      "create_timestamp": "2022-11-16T13:05:23.850Z",
+      "update_timestamp": "2022-11-16T13:05:23.850Z",
+      "question": 13,
+      "text": "Scripting Language",
+      "is_correct": false
+   }
+},
+{
+   "model": "quiz.choice",
+   "pk": 52,
+   "fields": {
+      "create_timestamp": "2022-11-16T13:05:23.851Z",
+      "update_timestamp": "2022-11-16T13:05:23.851Z",
+      "question": 13,
+      "text": "Programming Language",
+      "is_correct": false
+   }
+},
+{
+   "model": "quiz.choice",
+   "pk": 53,
+   "fields": {
+      "create_timestamp": "2022-11-16T13:06:49.742Z",
+      "update_timestamp": "2022-11-16T13:06:49.742Z",
+      "question": 15,
+      "text": "h1 - h6",
+      "is_correct": true
+   }
+},
+{
+   "model": "quiz.choice",
+   "pk": 54,
+   "fields": {
+      "create_timestamp": "2022-11-16T13:06:49.743Z",
+      "update_timestamp": "2022-11-16T13:06:49.743Z",
+      "question": 15,
+      "text": "heading",
+      "is_correct": false
+   }
+},
+{
+   "model": "quiz.choice",
+   "pk": 55,
+   "fields": {
+      "create_timestamp": "2022-11-16T13:06:49.743Z",
+      "update_timestamp": "2022-11-16T13:06:49.743Z",
+      "question": 15,
+      "text": "head",
+      "is_correct": false
+   }
+},
+{
+   "model": "quiz.choice",
+   "pk": 56,
+   "fields": {
+      "create_timestamp": "2022-11-16T13:06:49.743Z",
+      "update_timestamp": "2022-11-16T13:06:49.743Z",
+      "question": 15,
+      "text": "header",
+      "is_correct": false
+   }
+},
+{
+   "model": "quiz.choice",
+   "pk": 57,
+   "fields": {
+      "create_timestamp": "2022-11-16T13:11:26.143Z",
+      "update_timestamp": "2022-11-16T13:11:26.143Z",
+      "question": 16,
+      "text": "lb",
+      "is_correct": false
+   }
+},
+{
+   "model": "quiz.choice",
+   "pk": 58,
+   "fields": {
+      "create_timestamp": "2022-11-16T13:11:26.144Z",
+      "update_timestamp": "2022-11-16T13:11:26.144Z",
+      "question": 16,
+      "text": "break",
+      "is_correct": false
+   }
+},
+{
+   "model": "quiz.choice",
+   "pk": 59,
+   "fields": {
+      "create_timestamp": "2022-11-16T13:11:26.144Z",
+      "update_timestamp": "2022-11-16T13:11:26.144Z",
+      "question": 16,
+      "text": "linebreak",
+      "is_correct": false
+   }
+},
+{
+   "model": "quiz.choice",
+   "pk": 60,
+   "fields": {
+      "create_timestamp": "2022-11-16T13:11:26.144Z",
+      "update_timestamp": "2022-11-16T13:11:26.144Z",
+      "question": 16,
+      "text": "br",
+      "is_correct": true
+   }
+},
+{
+   "model": "quiz.choice",
+   "pk": 61,
+   "fields": {
+      "create_timestamp": "2022-11-16T13:13:21.733Z",
+      "update_timestamp": "2022-11-16T13:13:21.733Z",
+      "question": 17,
+      "text": "ins and del",
+      "is_correct": false
+   }
+},
+{
+   "model": "quiz.choice",
+   "pk": 62,
+   "fields": {
+      "create_timestamp": "2022-11-16T13:13:21.734Z",
+      "update_timestamp": "2022-11-16T13:13:21.734Z",
+      "question": 17,
+      "text": "b and strong",
+      "is_correct": true
+   }
+},
+{
+   "model": "quiz.choice",
+   "pk": 63,
+   "fields": {
+      "create_timestamp": "2022-11-16T13:13:21.734Z",
+      "update_timestamp": "2022-11-16T13:13:21.734Z",
+      "question": 17,
+      "text": "sub and sup",
+      "is_correct": false
+   }
+},
+{
+   "model": "quiz.choice",
+   "pk": 64,
+   "fields": {
+      "create_timestamp": "2022-11-16T13:13:21.734Z",
+      "update_timestamp": "2022-11-16T13:13:21.734Z",
+      "question": 17,
+      "text": "i and em",
+      "is_correct": false
+   }
+},
+{
+   "model": "quiz.choice",
+   "pk": 65,
+   "fields": {
+      "create_timestamp": "2022-11-16T13:45:11.423Z",
+      "update_timestamp": "2022-11-16T13:45:11.423Z",
+      "question": 18,
+      "text": "Rows, but no columns",
+      "is_correct": false
+   }
+},
+{
+   "model": "quiz.choice",
+   "pk": 66,
+   "fields": {
+      "create_timestamp": "2022-11-16T13:45:11.424Z",
+      "update_timestamp": "2022-11-16T13:45:11.424Z",
+      "question": 18,
+      "text": "Columns and rows",
+      "is_correct": true
+   }
+},
+{
+   "model": "quiz.choice",
+   "pk": 67,
+   "fields": {
+      "create_timestamp": "2022-11-16T13:45:11.424Z",
+      "update_timestamp": "2022-11-16T13:45:11.424Z",
+      "question": 18,
+      "text": "Columns only",
+      "is_correct": false
+   }
+},
+{
+   "model": "quiz.choice",
+   "pk": 68,
+   "fields": {
+      "create_timestamp": "2022-11-16T13:47:46.510Z",
+      "update_timestamp": "2022-11-16T13:47:46.510Z",
+      "question": 19,
+      "text": "Each query must end with a semicolon",
+      "is_correct": true
+   }
+},
+{
+   "model": "quiz.choice",
+   "pk": 69,
+   "fields": {
+      "create_timestamp": "2022-11-16T13:47:46.510Z",
+      "update_timestamp": "2022-11-16T13:47:46.510Z",
+      "question": 19,
+      "text": "You get an error, because it's not possible to run more than one query",
+      "is_correct": false
+   }
+},
+{
+   "model": "quiz.choice",
+   "pk": 70,
+   "fields": {
+      "create_timestamp": "2022-11-16T13:47:46.510Z",
+      "update_timestamp": "2022-11-16T13:47:46.510Z",
+      "question": 19,
+      "text": "You get only the last query's result",
+      "is_correct": false
+   }
+},
+{
+   "model": "quiz.choice",
+   "pk": 71,
+   "fields": {
+      "create_timestamp": "2022-11-16T13:51:27.081Z",
+      "update_timestamp": "2022-11-16T13:51:27.081Z",
+      "question": 20,
+      "text": "Line breaks divide a query into multiple queries",
+      "is_correct": false
+   }
+},
+{
+   "model": "quiz.choice",
+   "pk": 72,
+   "fields": {
+      "create_timestamp": "2022-11-16T13:51:27.081Z",
+      "update_timestamp": "2022-11-16T13:51:27.081Z",
+      "question": 20,
+      "text": "Whitespaces and line breaks are ignored",
+      "is_correct": true
+   }
+},
+{
+   "model": "quiz.choice",
+   "pk": 73,
+   "fields": {
+      "create_timestamp": "2022-11-16T13:51:27.082Z",
+      "update_timestamp": "2022-11-16T13:51:27.082Z",
+      "question": 20,
+      "text": "Whitespaces affect query result",
+      "is_correct": false
+   }
+},
+{
+   "model": "quiz.choice",
+   "pk": 74,
+   "fields": {
+      "create_timestamp": "2022-11-16T13:52:58.312Z",
+      "update_timestamp": "2022-11-16T13:52:58.312Z",
+      "question": 21,
+      "text": "To guarantee the uniqueness of a row",
+      "is_correct": true
+   }
+},
+{
+   "model": "quiz.choice",
+   "pk": 75,
+   "fields": {
+      "create_timestamp": "2022-11-16T13:52:58.312Z",
+      "update_timestamp": "2022-11-16T13:52:58.312Z",
+      "question": 21,
+      "text": "It's an SQL standard",
+      "is_correct": false
+   }
+},
+{
+   "model": "quiz.choice",
+   "pk": 76,
+   "fields": {
+      "create_timestamp": "2022-11-16T13:52:58.312Z",
+      "update_timestamp": "2022-11-16T13:52:58.312Z",
+      "question": 21,
+      "text": "Just for fun",
+      "is_correct": false
+   }
+},
+{
+   "model": "quiz.choice",
+   "pk": 77,
+   "fields": {
+      "create_timestamp": "2022-11-16T13:56:02.173Z",
+      "update_timestamp": "2022-11-16T13:56:02.173Z",
+      "question": 22,
+      "text": "UPPER",
+      "is_correct": false
+   }
+},
+{
+   "model": "quiz.choice",
+   "pk": 78,
+   "fields": {
+      "create_timestamp": "2022-11-16T13:56:02.173Z",
+      "update_timestamp": "2022-11-16T13:56:02.173Z",
+      "question": 22,
+      "text": "ROOT",
+      "is_correct": false
+   }
+},
+{
+   "model": "quiz.choice",
+   "pk": 79,
+   "fields": {
+      "create_timestamp": "2022-11-16T13:56:02.173Z",
+      "update_timestamp": "2022-11-16T13:56:02.173Z",
+      "question": 22,
+      "text": "LOWER",
+      "is_correct": true
+   }
+},
+{
+   "model": "quiz.choice",
+   "pk": 80,
+   "fields": {
+      "create_timestamp": "2022-11-16T13:56:02.173Z",
+      "update_timestamp": "2022-11-16T13:56:02.173Z",
+      "question": 22,
+      "text": "DOWN",
+      "is_correct": false
+   }
+},
+{
+   "model": "quiz.choice",
+   "pk": 81,
+   "fields": {
+      "create_timestamp": "2022-11-16T13:57:15.162Z",
+      "update_timestamp": "2022-11-16T13:57:15.162Z",
+      "question": 23,
+      "text": "LIKE",
+      "is_correct": false
+   }
+},
+{
+   "model": "quiz.choice",
+   "pk": 82,
+   "fields": {
+      "create_timestamp": "2022-11-16T13:57:15.163Z",
+      "update_timestamp": "2022-11-16T13:57:15.163Z",
+      "question": 23,
+      "text": "SIMILAR",
+      "is_correct": false
+   }
+},
+{
+   "model": "quiz.choice",
+   "pk": 83,
+   "fields": {
+      "create_timestamp": "2022-11-16T13:57:15.163Z",
+      "update_timestamp": "2022-11-16T13:57:15.163Z",
+      "question": 23,
+      "text": "AS",
+      "is_correct": true
+   }
+},
+{
+   "model": "quiz.choice",
+   "pk": 84,
+   "fields": {
+      "create_timestamp": "2022-11-16T13:58:42.171Z",
+      "update_timestamp": "2022-11-16T13:58:42.171Z",
+      "question": 24,
+      "text": "SQRT",
+      "is_correct": false
+   }
+},
+{
+   "model": "quiz.choice",
+   "pk": 85,
+   "fields": {
+      "create_timestamp": "2022-11-16T13:58:42.171Z",
+      "update_timestamp": "2022-11-16T13:58:42.171Z",
+      "question": 24,
+      "text": "SUM",
+      "is_correct": true
+   }
+},
+{
+   "model": "quiz.choice",
+   "pk": 86,
+   "fields": {
+      "create_timestamp": "2022-11-16T13:58:42.171Z",
+      "update_timestamp": "2022-11-16T13:58:42.171Z",
+      "question": 24,
+      "text": "AVG",
+      "is_correct": false
+   }
+},
+{
+   "model": "quiz.choice",
+   "pk": 87,
+   "fields": {
+      "create_timestamp": "2022-11-16T13:58:42.171Z",
+      "update_timestamp": "2022-11-16T13:58:42.171Z",
+      "question": 24,
+      "text": "AGGR",
+      "is_correct": false
+   }
+},
+{
+   "model": "quiz.choice",
+   "pk": 88,
+   "fields": {
+      "create_timestamp": "2022-11-16T14:00:58.815Z",
+      "update_timestamp": "2022-11-16T14:00:58.815Z",
+      "question": 25,
+      "text": "Removes joined tables",
+      "is_correct": false
+   }
+},
+{
+   "model": "quiz.choice",
+   "pk": 89,
+   "fields": {
+      "create_timestamp": "2022-11-16T14:00:58.815Z",
+      "update_timestamp": "2022-11-16T14:00:58.815Z",
+      "question": 25,
+      "text": "Creates a temporary table with the joined tables' data",
+      "is_correct": true
+   }
+},
+{
+   "model": "quiz.choice",
+   "pk": 90,
+   "fields": {
+      "create_timestamp": "2022-11-16T14:00:58.815Z",
+      "update_timestamp": "2022-11-16T14:00:58.815Z",
+      "question": 25,
+      "text": "Removes one of the tables and splits it to the other",
+      "is_correct": false
+   }
+},
+{
+   "model": "quiz.choice",
+   "pk": 91,
+   "fields": {
+      "create_timestamp": "2022-11-16T14:04:10.898Z",
+      "update_timestamp": "2022-11-16T14:04:10.898Z",
+      "question": 26,
+      "text": "MAKE TABLE",
+      "is_correct": false
+   }
+},
+{
+   "model": "quiz.choice",
+   "pk": 92,
+   "fields": {
+      "create_timestamp": "2022-11-16T14:04:10.899Z",
+      "update_timestamp": "2022-11-16T14:04:10.899Z",
+      "question": 26,
+      "text": "FIND TABLE",
+      "is_correct": false
+   }
+},
+{
+   "model": "quiz.choice",
+   "pk": 93,
+   "fields": {
+      "create_timestamp": "2022-11-16T14:04:10.899Z",
+      "update_timestamp": "2022-11-16T14:04:10.899Z",
+      "question": 26,
+      "text": "CREATE TABLE",
+      "is_correct": true
+   }
+},
+{
+   "model": "quiz.choice",
+   "pk": 94,
+   "fields": {
+      "create_timestamp": "2022-11-16T14:05:29.883Z",
+      "update_timestamp": "2022-11-16T14:05:29.883Z",
+      "question": 27,
+      "text": "MAKE VIEW",
+      "is_correct": false
+   }
+},
+{
+   "model": "quiz.choice",
+   "pk": 95,
+   "fields": {
+      "create_timestamp": "2022-11-16T14:05:29.883Z",
+      "update_timestamp": "2022-11-16T14:05:29.883Z",
+      "question": 27,
+      "text": "CREATE VIEW",
+      "is_correct": true
+   }
+},
+{
+   "model": "quiz.choice",
+   "pk": 96,
+   "fields": {
+      "create_timestamp": "2022-11-16T14:05:29.883Z",
+      "update_timestamp": "2022-11-16T14:05:29.883Z",
+      "question": 27,
+      "text": "TABLE VIEW",
+      "is_correct": false
+   }
+},
+{
+   "model": "quiz.choice",
+   "pk": 97,
+   "fields": {
+      "create_timestamp": "2022-11-16T14:05:29.884Z",
+      "update_timestamp": "2022-11-16T14:05:29.884Z",
+      "question": 27,
+      "text": "ALTER VIEW",
+      "is_correct": false
+   }
+},
+{
+   "model": "quiz.choice",
+   "pk": 98,
+   "fields": {
+      "create_timestamp": "2022-11-16T14:07:35.327Z",
+      "update_timestamp": "2022-11-16T14:07:35.327Z",
+      "question": 28,
+      "text": "SELECT",
+      "is_correct": false
+   }
+},
+{
+   "model": "quiz.choice",
+   "pk": 99,
+   "fields": {
+      "create_timestamp": "2022-11-16T14:07:35.328Z",
+      "update_timestamp": "2022-11-16T14:07:35.328Z",
+      "question": 28,
+      "text": "CHANGE NAME",
+      "is_correct": false
+   }
+},
+{
+   "model": "quiz.choice",
+   "pk": 100,
+   "fields": {
+      "create_timestamp": "2022-11-16T14:07:35.328Z",
+      "update_timestamp": "2022-11-16T14:07:35.328Z",
+      "question": 28,
+      "text": "MODIFY",
+      "is_correct": false
+   }
+},
+{
+   "model": "quiz.choice",
+   "pk": 101,
+   "fields": {
+      "create_timestamp": "2022-11-16T14:07:35.328Z",
+      "update_timestamp": "2022-11-16T14:07:35.328Z",
+      "question": 28,
+      "text": "RENAME",
+      "is_correct": true
+   }
+},
+{
+   "model": "quiz.choice",
+   "pk": 102,
+   "fields": {
+      "create_timestamp": "2022-11-16T14:13:58.098Z",
+      "update_timestamp": "2022-11-16T14:13:58.098Z",
+      "question": 30,
+      "text": "output",
+      "is_correct": false
+   }
+},
+{
+   "model": "quiz.choice",
+   "pk": 103,
+   "fields": {
+      "create_timestamp": "2022-11-16T14:13:58.098Z",
+      "update_timestamp": "2022-11-16T14:13:58.098Z",
+      "question": 30,
+      "text": "print",
+      "is_correct": true
+   }
+},
+{
+   "model": "quiz.choice",
+   "pk": 104,
+   "fields": {
+      "create_timestamp": "2022-11-16T14:13:58.098Z",
+      "update_timestamp": "2022-11-16T14:13:58.098Z",
+      "question": 30,
+      "text": "write",
+      "is_correct": false
+   }
+},
+{
+   "model": "quiz.choice",
+   "pk": 105,
+   "fields": {
+      "create_timestamp": "2022-11-16T14:15:14.896Z",
+      "update_timestamp": "2022-11-16T14:15:14.896Z",
+      "question": 31,
+      "text": "square brackets",
+      "is_correct": false
+   }
+},
+{
+   "model": "quiz.choice",
+   "pk": 106,
+   "fields": {
+      "create_timestamp": "2022-11-16T14:15:14.896Z",
+      "update_timestamp": "2022-11-16T14:15:14.896Z",
+      "question": 31,
+      "text": "commas",
+      "is_correct": false
+   }
+},
+{
+   "model": "quiz.choice",
+   "pk": 107,
+   "fields": {
+      "create_timestamp": "2022-11-16T14:15:14.896Z",
+      "update_timestamp": "2022-11-16T14:15:14.896Z",
+      "question": 31,
+      "text": "quotes",
+      "is_correct": true
+   }
+},
+{
+   "model": "quiz.choice",
+   "pk": 108,
+   "fields": {
+      "create_timestamp": "2022-11-16T14:17:49.809Z",
+      "update_timestamp": "2022-11-16T14:17:49.809Z",
+      "question": 32,
+      "text": "8",
+      "is_correct": false
+   }
+},
+{
+   "model": "quiz.choice",
+   "pk": 109,
+   "fields": {
+      "create_timestamp": "2022-11-16T14:17:49.809Z",
+      "update_timestamp": "2022-11-16T14:17:49.809Z",
+      "question": 32,
+      "text": "6",
+      "is_correct": false
+   }
+},
+{
+   "model": "quiz.choice",
+   "pk": 110,
+   "fields": {
+      "create_timestamp": "2022-11-16T14:17:49.809Z",
+      "update_timestamp": "2022-11-16T14:17:49.809Z",
+      "question": 32,
+      "text": "6.0",
+      "is_correct": true
+   }
+},
+{
+   "model": "quiz.choice",
+   "pk": 111,
+   "fields": {
+      "create_timestamp": "2022-11-16T14:19:52.107Z",
+      "update_timestamp": "2022-11-16T14:19:52.107Z",
+      "question": 33,
+      "text": "42",
+      "is_correct": false
+   }
+},
+{
+   "model": "quiz.choice",
+   "pk": 112,
+   "fields": {
+      "create_timestamp": "2022-11-16T14:19:52.107Z",
+      "update_timestamp": "2022-11-16T14:19:52.107Z",
+      "question": 33,
+      "text": "7.0",
+      "is_correct": false
+   }
+},
+{
+   "model": "quiz.choice",
+   "pk": 113,
+   "fields": {
+      "create_timestamp": "2022-11-16T14:19:52.107Z",
+      "update_timestamp": "2022-11-16T14:19:52.107Z",
+      "question": 33,
+      "text": "\"some text\"",
+      "is_correct": true
+   }
+},
+{
+   "model": "quiz.choice",
+   "pk": 114,
+   "fields": {
+      "create_timestamp": "2022-11-16T14:19:52.107Z",
+      "update_timestamp": "2022-11-16T14:19:52.107Z",
+      "question": 33,
+      "text": "'hello'",
+      "is_correct": true
+   }
+},
+{
+   "model": "quiz.choice",
+   "pk": 115,
+   "fields": {
+      "create_timestamp": "2022-11-16T14:21:05.826Z",
+      "update_timestamp": "2022-11-16T14:21:05.826Z",
+      "question": 34,
+      "text": "8",
+      "is_correct": false
+   }
+},
+{
+   "model": "quiz.choice",
+   "pk": 116,
+   "fields": {
+      "create_timestamp": "2022-11-16T14:21:05.826Z",
+      "update_timestamp": "2022-11-16T14:21:05.826Z",
+      "question": 34,
+      "text": "3.14",
+      "is_correct": true
+   }
+},
+{
+   "model": "quiz.choice",
+   "pk": 117,
+   "fields": {
+      "create_timestamp": "2022-11-16T14:21:05.826Z",
+      "update_timestamp": "2022-11-16T14:21:05.826Z",
+      "question": 34,
+      "text": "\"6.4\"",
+      "is_correct": false
+   }
+},
+{
+   "model": "quiz.choice",
+   "pk": 118,
+   "fields": {
+      "create_timestamp": "2022-11-16T14:21:05.826Z",
+      "update_timestamp": "2022-11-16T14:21:05.826Z",
+      "question": 34,
+      "text": "111",
+      "is_correct": false
+   }
+},
+{
+   "model": "quiz.choice",
+   "pk": 119,
+   "fields": {
+      "create_timestamp": "2022-11-16T14:22:38.366Z",
+      "update_timestamp": "2022-11-16T14:22:38.366Z",
+      "question": 35,
+      "text": "36",
+      "is_correct": true
+   }
+},
+{
+   "model": "quiz.choice",
+   "pk": 120,
+   "fields": {
+      "create_timestamp": "2022-11-16T14:22:38.367Z",
+      "update_timestamp": "2022-11-16T14:22:38.367Z",
+      "question": 35,
+      "text": "64",
+      "is_correct": false
+   }
+},
+{
+   "model": "quiz.choice",
+   "pk": 121,
+   "fields": {
+      "create_timestamp": "2022-11-16T14:22:38.367Z",
+      "update_timestamp": "2022-11-16T14:22:38.367Z",
+      "question": 35,
+      "text": "12",
+      "is_correct": false
+   }
+},
+{
+   "model": "quiz.choice",
+   "pk": 122,
+   "fields": {
+      "create_timestamp": "2022-11-16T14:22:38.367Z",
+      "update_timestamp": "2022-11-16T14:22:38.367Z",
+      "question": 35,
+      "text": "66",
+      "is_correct": false
+   }
+},
+{
+   "model": "quiz.choice",
+   "pk": 123,
+   "fields": {
+      "create_timestamp": "2022-11-16T14:24:08.920Z",
+      "update_timestamp": "2022-11-16T14:24:08.920Z",
+      "question": 36,
+      "text": "0",
+      "is_correct": false
+   }
+},
+{
+   "model": "quiz.choice",
+   "pk": 124,
+   "fields": {
+      "create_timestamp": "2022-11-16T14:24:08.920Z",
+      "update_timestamp": "2022-11-16T14:24:08.920Z",
+      "question": 36,
+      "text": "7",
+      "is_correct": false
+   }
+},
+{
+   "model": "quiz.choice",
+   "pk": 125,
+   "fields": {
+      "create_timestamp": "2022-11-16T14:24:08.920Z",
+      "update_timestamp": "2022-11-16T14:24:08.920Z",
+      "question": 36,
+      "text": "1",
+      "is_correct": true
+   }
+},
+{
+   "model": "quiz.choice",
+   "pk": 126,
+   "fields": {
+      "create_timestamp": "2022-11-16T14:43:48.894Z",
+      "update_timestamp": "2022-11-16T14:43:48.894Z",
+      "question": 37,
+      "text": "**",
+      "is_correct": false
+   }
+},
+{
+   "model": "quiz.choice",
+   "pk": 127,
+   "fields": {
+      "create_timestamp": "2022-11-16T14:43:48.895Z",
+      "update_timestamp": "2022-11-16T14:43:48.895Z",
+      "question": 37,
+      "text": "++",
+      "is_correct": false
+   }
+},
+{
+   "model": "quiz.choice",
+   "pk": 128,
+   "fields": {
+      "create_timestamp": "2022-11-16T14:43:48.895Z",
+      "update_timestamp": "2022-11-16T14:43:48.895Z",
+      "question": 37,
+      "text": "%",
+      "is_correct": true
+   }
+},
+{
+   "model": "quiz.choice",
+   "pk": 129,
+   "fields": {
+      "create_timestamp": "2022-11-16T14:43:48.895Z",
+      "update_timestamp": "2022-11-16T14:43:48.895Z",
+      "question": 37,
+      "text": "//",
+      "is_correct": false
+   }
+},
+{
+   "model": "quiz.choice",
+   "pk": 130,
+   "fields": {
+      "create_timestamp": "2022-11-16T14:46:44.012Z",
+      "update_timestamp": "2022-11-16T14:46:44.012Z",
+      "question": 38,
+      "text": "value",
+      "is_correct": true
+   }
+},
+{
+   "model": "quiz.choice",
+   "pk": 131,
+   "fields": {
+      "create_timestamp": "2022-11-16T14:46:44.013Z",
+      "update_timestamp": "2022-11-16T14:46:44.013Z",
+      "question": 38,
+      "text": "nickname",
+      "is_correct": false
+   }
+},
+{
+   "model": "quiz.choice",
+   "pk": 132,
+   "fields": {
+      "create_timestamp": "2022-11-16T14:46:44.013Z",
+      "update_timestamp": "2022-11-16T14:46:44.013Z",
+      "question": 38,
+      "text": "key",
+      "is_correct": false
+   }
+},
+{
+   "model": "quiz.choice",
+   "pk": 133,
+   "fields": {
+      "create_timestamp": "2022-11-16T14:48:26.248Z",
+      "update_timestamp": "2022-11-16T14:48:26.248Z",
+      "question": 39,
+      "text": "converts a list of numbers to variables",
+      "is_correct": false
+   }
+},
+{
+   "model": "quiz.choice",
+   "pk": 134,
+   "fields": {
+      "create_timestamp": "2022-11-16T14:48:26.248Z",
+      "update_timestamp": "2022-11-16T14:48:26.249Z",
+      "question": 39,
+      "text": "converts its argument to a string",
+      "is_correct": true
+   }
+},
+{
+   "model": "quiz.choice",
+   "pk": 135,
+   "fields": {
+      "create_timestamp": "2022-11-16T14:48:26.249Z",
+      "update_timestamp": "2022-11-16T14:48:26.249Z",
+      "question": 39,
+      "text": "converts its argument to an integer",
+      "is_correct": false
+   }
+},
+{
+   "model": "quiz.choice",
+   "pk": 136,
+   "fields": {
+      "create_timestamp": "2022-11-16T14:50:44.211Z",
+      "update_timestamp": "2022-11-16T14:50:44.211Z",
+      "question": 40,
+      "text": "If statements",
+      "is_correct": false
+   }
+},
+{
+   "model": "quiz.choice",
+   "pk": 137,
+   "fields": {
+      "create_timestamp": "2022-11-16T14:50:44.212Z",
+      "update_timestamp": "2022-11-16T14:50:44.212Z",
+      "question": 40,
+      "text": "Variable assignment",
+      "is_correct": false
+   }
+},
+{
+   "model": "quiz.choice",
+   "pk": 138,
+   "fields": {
+      "create_timestamp": "2022-11-16T14:50:44.212Z",
+      "update_timestamp": "2022-11-16T14:50:44.212Z",
+      "question": 40,
+      "text": "Loops",
+      "is_correct": true
+   }
+},
+{
+   "model": "quiz.choice",
+   "pk": 139,
+   "fields": {
+      "create_timestamp": "2022-11-16T14:52:29.755Z",
+      "update_timestamp": "2022-11-16T14:52:29.755Z",
+      "question": 41,
+      "text": "6",
+      "is_correct": false
+   }
+},
+{
+   "model": "quiz.choice",
+   "pk": 140,
+   "fields": {
+      "create_timestamp": "2022-11-16T14:52:29.756Z",
+      "update_timestamp": "2022-11-16T14:52:29.756Z",
+      "question": 41,
+      "text": "5",
+      "is_correct": true
+   }
+},
+{
+   "model": "quiz.choice",
+   "pk": 141,
+   "fields": {
+      "create_timestamp": "2022-11-16T14:52:29.756Z",
+      "update_timestamp": "2022-11-16T14:52:29.756Z",
+      "question": 41,
+      "text": "4",
+      "is_correct": false
+   }
+},
+{
+   "model": "quiz.choice",
+   "pk": 142,
+   "fields": {
+      "create_timestamp": "2022-11-16T14:52:29.756Z",
+      "update_timestamp": "2022-11-16T14:52:29.756Z",
+      "question": 41,
+      "text": "1",
+      "is_correct": false
+   }
+},
+{
+   "model": "quiz.choice",
+   "pk": 143,
+   "fields": {
+      "create_timestamp": "2022-11-16T14:57:44.122Z",
+      "update_timestamp": "2022-11-16T14:57:44.122Z",
+      "question": 42,
+      "text": "{2: 4, 3: 9}",
+      "is_correct": true
+   }
+},
+{
+   "model": "quiz.choice",
+   "pk": 144,
+   "fields": {
+      "create_timestamp": "2022-11-16T14:57:44.123Z",
+      "update_timestamp": "2022-11-16T14:57:44.123Z",
+      "question": 42,
+      "text": "False",
+      "is_correct": false
+   }
+},
+{
+   "model": "quiz.choice",
+   "pk": 145,
+   "fields": {
+      "create_timestamp": "2022-11-16T14:57:44.123Z",
+      "update_timestamp": "2022-11-16T14:57:44.123Z",
+      "question": 42,
+      "text": "\"one two three\"",
+      "is_correct": false
+   }
+},
+{
+   "model": "quiz.choice",
+   "pk": 146,
+   "fields": {
+      "create_timestamp": "2022-11-16T14:57:44.123Z",
+      "update_timestamp": "2022-11-16T14:57:44.123Z",
+      "question": 42,
+      "text": "123",
+      "is_correct": false
+   }
+},
+{
+   "model": "quiz.choice",
+   "pk": 147,
+   "fields": {
+      "create_timestamp": "2022-11-16T15:02:29.059Z",
+      "update_timestamp": "2022-11-16T15:02:29.059Z",
+      "question": 43,
+      "text": "A list of even numbers between 0 and 10",
+      "is_correct": false
+   }
+},
+{
+   "model": "quiz.choice",
+   "pk": 148,
+   "fields": {
+      "create_timestamp": "2022-11-16T15:02:29.059Z",
+      "update_timestamp": "2022-11-16T15:02:29.059Z",
+      "question": 43,
+      "text": "A list of even numbers between 0 and 18",
+      "is_correct": true
+   }
+},
+{
+   "model": "quiz.choice",
+   "pk": 149,
+   "fields": {
+      "create_timestamp": "2022-11-16T15:02:29.059Z",
+      "update_timestamp": "2022-11-16T15:02:29.059Z",
+      "question": 43,
+      "text": "A list of all numbers between 0 and 10",
+      "is_correct": false
+   }
+},
+{
+   "model": "quiz.choice",
+   "pk": 150,
+   "fields": {
+      "create_timestamp": "2022-11-16T15:04:03.728Z",
+      "update_timestamp": "2022-11-16T15:04:03.728Z",
+      "question": 44,
+      "text": "Dictionary",
+      "is_correct": false
+   }
+},
+{
+   "model": "quiz.choice",
+   "pk": 151,
+   "fields": {
+      "create_timestamp": "2022-11-16T15:04:03.728Z",
+      "update_timestamp": "2022-11-16T15:04:03.728Z",
+      "question": 44,
+      "text": "List",
+      "is_correct": false
+   }
+},
+{
+   "model": "quiz.choice",
+   "pk": 152,
+   "fields": {
+      "create_timestamp": "2022-11-16T15:04:03.728Z",
+      "update_timestamp": "2022-11-16T15:04:03.728Z",
+      "question": 44,
+      "text": "Set",
+      "is_correct": true
+   }
+},
+{
+   "model": "quiz.choice",
+   "pk": 153,
+   "fields": {
+      "create_timestamp": "2022-11-16T15:04:03.728Z",
+      "update_timestamp": "2022-11-16T15:04:03.728Z",
+      "question": 44,
+      "text": "Tuple",
+      "is_correct": false
+   }
+},
+{
+   "model": "quiz.choice",
+   "pk": 154,
+   "fields": {
+      "create_timestamp": "2022-11-16T15:05:25.126Z",
+      "update_timestamp": "2022-11-16T15:05:25.126Z",
+      "question": 45,
+      "text": "A number",
+      "is_correct": false
+   }
+},
+{
+   "model": "quiz.choice",
+   "pk": 155,
+   "fields": {
+      "create_timestamp": "2022-11-16T15:05:25.127Z",
+      "update_timestamp": "2022-11-16T15:05:25.127Z",
+      "question": 45,
+      "text": "A tuple",
+      "is_correct": true
+   }
+},
+{
+   "model": "quiz.choice",
+   "pk": 156,
+   "fields": {
+      "create_timestamp": "2022-11-16T15:05:25.127Z",
+      "update_timestamp": "2022-11-16T15:05:25.127Z",
+      "question": 45,
+      "text": "A dictionary",
+      "is_correct": false
+   }
+},
+{
+   "model": "quiz.choice",
+   "pk": 157,
+   "fields": {
+      "create_timestamp": "2022-11-16T15:06:10.562Z",
+      "update_timestamp": "2022-11-16T15:06:10.562Z",
+      "question": 46,
+      "text": "Yes",
+      "is_correct": true
+   }
+},
+{
+   "model": "quiz.choice",
+   "pk": 158,
+   "fields": {
+      "create_timestamp": "2022-11-16T15:06:10.562Z",
+      "update_timestamp": "2022-11-16T15:06:10.562Z",
+      "question": 46,
+      "text": "No",
+      "is_correct": false
+   }
+},
+{
+   "model": "quiz.choice",
+   "pk": 159,
+   "fields": {
+      "create_timestamp": "2022-11-16T15:08:43.087Z",
+      "update_timestamp": "2022-11-16T15:08:43.087Z",
+      "question": 47,
+      "text": "They are easier to analyze",
+      "is_correct": false
+   }
+},
+{
+   "model": "quiz.choice",
+   "pk": 160,
+   "fields": {
+      "create_timestamp": "2022-11-16T15:08:43.087Z",
+      "update_timestamp": "2022-11-16T15:08:43.087Z",
+      "question": 47,
+      "text": "They are easier to write",
+      "is_correct": true
+   }
+},
+{
+   "model": "quiz.choice",
+   "pk": 161,
+   "fields": {
+      "create_timestamp": "2022-11-16T15:08:43.087Z",
+      "update_timestamp": "2022-11-16T15:08:43.087Z",
+      "question": 47,
+      "text": "They are easier to run in parallel",
+      "is_correct": false
+   }
+},
+{
+   "model": "quiz.choice",
+   "pk": 162,
+   "fields": {
+      "create_timestamp": "2022-11-16T15:10:02.655Z",
+      "update_timestamp": "2022-11-16T15:10:02.655Z",
+      "question": 48,
+      "text": "lamdas",
+      "is_correct": false
+   }
+},
+{
+   "model": "quiz.choice",
+   "pk": 163,
+   "fields": {
+      "create_timestamp": "2022-11-16T15:10:02.655Z",
+      "update_timestamp": "2022-11-16T15:10:02.655Z",
+      "question": 48,
+      "text": "lambdas",
+      "is_correct": true
+   }
+},
+{
+   "model": "quiz.choice",
+   "pk": 164,
+   "fields": {
+      "create_timestamp": "2022-11-16T15:10:02.655Z",
+      "update_timestamp": "2022-11-16T15:10:02.655Z",
+      "question": 48,
+      "text": "lombdas",
+      "is_correct": false
+   }
+},
+{
+   "model": "quiz.choice",
+   "pk": 165,
+   "fields": {
+      "create_timestamp": "2022-11-16T15:12:42.684Z",
+      "update_timestamp": "2022-11-16T15:12:42.684Z",
+      "question": 49,
+      "text": "Functions that modify other functions",
+      "is_correct": true
+   }
+},
+{
+   "model": "quiz.choice",
+   "pk": 166,
+   "fields": {
+      "create_timestamp": "2022-11-16T15:12:42.685Z",
+      "update_timestamp": "2022-11-16T15:12:42.685Z",
+      "question": 49,
+      "text": "Functions with an at sign in their names",
+      "is_correct": false
+   }
+},
+{
+   "model": "quiz.choice",
+   "pk": 167,
+   "fields": {
+      "create_timestamp": "2022-11-16T15:12:42.685Z",
+      "update_timestamp": "2022-11-16T15:12:42.685Z",
+      "question": 49,
+      "text": "Functions that return themselves",
+      "is_correct": false
+   }
+},
+{
+   "model": "quiz.choice",
+   "pk": 168,
+   "fields": {
+      "create_timestamp": "2022-11-16T15:15:37.701Z",
+      "update_timestamp": "2022-11-16T15:15:37.701Z",
+      "question": 50,
+      "text": "A case that doesn't involve any further calls to that function",
+      "is_correct": true
+   }
+},
+{
+   "model": "quiz.choice",
+   "pk": 169,
+   "fields": {
+      "create_timestamp": "2022-11-16T15:15:37.701Z",
+      "update_timestamp": "2022-11-16T15:15:37.701Z",
+      "question": 50,
+      "text": "A case that never occurs",
+      "is_correct": false
+   }
+},
+{
+   "model": "quiz.choice",
+   "pk": 170,
+   "fields": {
+      "create_timestamp": "2022-11-16T15:15:37.701Z",
+      "update_timestamp": "2022-11-16T15:15:37.701Z",
+      "question": 50,
+      "text": "A case involving the number 1",
+      "is_correct": false
+   }
+},
+{
+   "model": "quiz.choice",
+   "pk": 171,
+   "fields": {
+      "create_timestamp": "2022-11-16T15:17:32.451Z",
+      "update_timestamp": "2022-11-16T15:17:32.451Z",
+      "question": 51,
+      "text": "As the tuple args",
+      "is_correct": true
+   }
+},
+{
+   "model": "quiz.choice",
+   "pk": 172,
+   "fields": {
+      "create_timestamp": "2022-11-16T15:17:32.451Z",
+      "update_timestamp": "2022-11-16T15:17:32.451Z",
+      "question": 51,
+      "text": "As the tuple *args",
+      "is_correct": false
+   }
+},
+{
+   "model": "quiz.choice",
+   "pk": 173,
+   "fields": {
+      "create_timestamp": "2022-11-16T15:17:32.452Z",
+      "update_timestamp": "2022-11-16T15:17:32.452Z",
+      "question": 51,
+      "text": "As the list *args",
+      "is_correct": false
+   }
+},
+{
+   "model": "quiz.choice",
+   "pk": 174,
+   "fields": {
+      "create_timestamp": "2022-11-16T15:18:50.105Z",
+      "update_timestamp": "2022-11-16T15:18:50.105Z",
+      "question": 52,
+      "text": "A set",
+      "is_correct": false
+   }
+},
+{
+   "model": "quiz.choice",
+   "pk": 175,
+   "fields": {
+      "create_timestamp": "2022-11-16T15:18:50.105Z",
+      "update_timestamp": "2022-11-16T15:18:50.105Z",
+      "question": 52,
+      "text": "A dictionary",
+      "is_correct": true
+   }
+},
+{
+   "model": "quiz.choice",
+   "pk": 176,
+   "fields": {
+      "create_timestamp": "2022-11-16T15:18:50.105Z",
+      "update_timestamp": "2022-11-16T15:18:50.105Z",
+      "question": 52,
+      "text": "A list",
+      "is_correct": false
+   }
+},
+{
+   "model": "quiz.choice",
+   "pk": 177,
+   "fields": {
+      "create_timestamp": "2022-11-16T15:20:34.026Z",
+      "update_timestamp": "2022-11-16T15:20:34.026Z",
+      "question": 53,
+      "text": "Integer",
+      "is_correct": false
+   }
+},
+{
+   "model": "quiz.choice",
+   "pk": 178,
+   "fields": {
+      "create_timestamp": "2022-11-16T15:20:34.027Z",
+      "update_timestamp": "2022-11-16T15:20:34.027Z",
+      "question": 53,
+      "text": "Function",
+      "is_correct": true
+   }
+},
+{
+   "model": "quiz.choice",
+   "pk": 179,
+   "fields": {
+      "create_timestamp": "2022-11-16T15:20:34.027Z",
+      "update_timestamp": "2022-11-16T15:20:34.027Z",
+      "question": 53,
+      "text": "Class",
+      "is_correct": false
+   }
+},
+{
+   "model": "quiz.choice",
+   "pk": 180,
+   "fields": {
+      "create_timestamp": "2022-11-16T15:20:34.027Z",
+      "update_timestamp": "2022-11-16T15:20:34.027Z",
+      "question": 53,
+      "text": "Float",
+      "is_correct": false
+   }
+}
+]

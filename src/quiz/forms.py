@@ -13,6 +13,20 @@ class QuestionInlineFormSet(forms.BaseInlineFormSet):
                 f'to {self.instance.QUESTION_MAX_LIMIT} inclusive'
             )
 
+        index = 1
+        for form in self.forms:
+            if form.cleaned_data['order_num'] != index:
+                raise ValidationError(
+                    f'Question order number must be in range '
+                    f'from 1 to {self.instance.QUESTION_MAX_LIMIT} and '
+                    f'greater than previous by 1'
+                )
+            elif self.instance.QUESTION_MAX_LIMIT < form.cleaned_data['order_num']:
+                raise ValidationError(
+                    f'Question order number must be less than {self.instance.QUESTION_MAX_LIMIT} inclusive'
+                )
+            index += 1
+
 
 class ChoiceInlineFormSet(forms.BaseInlineFormSet):
     def clean(self):
