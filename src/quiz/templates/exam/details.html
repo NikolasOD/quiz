@@ -26,18 +26,40 @@
                             <td>Runs count</td>
                             <td>{{ exam.results.count }}</td>
                         </tr>
-                        <tr>
-                            <td>Best result</td>
-                            <td>N/A</td>
-                        </tr>
-                        <tr>
-                            <td>Best user</td>
-                            <td>N/A</td>
-                        </tr>
-                        <tr>
-                            <td>Last run</td>
-                            <td>N/A</td>
-                        </tr>
+                        {% with best_res=exam.results.all|dictsort:"num_correct_answers"|last %}
+                            <tr>
+                                <td>Best result</td>
+                                <td>
+                                    {% if best_res %}
+                                        {{ best_res.num_correct_answers }}
+                                    {% else %}
+                                        N/A
+                                    {% endif %}
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>Best user</td>
+                                <td>
+                                    {% if best_res %}
+                                        {{ best_res.user }}
+                                    {% else %}
+                                        N/A
+                                    {% endif %}
+                                </td>
+                            </tr>
+                        {% endwith %}
+                        {% with last_start=exam.results.all|dictsort:"update_timestamp"|last %}
+                            <tr>
+                                <td>Last run</td>
+                                <td>
+                                    {% if best_res %}
+                                        {{ last_start.update_timestamp }}
+                                    {% else %}
+                                        N/A
+                                    {% endif %}
+                                </td>
+                            </tr>
+                        {% endwith %}
                     </tbody>
               </table>
             </div>
