@@ -99,3 +99,7 @@ class Result(BaseModel):
             self.state = self.STATE.FINISHED
 
         self.save()
+
+    def calculate_points(self):
+        calculated_points = self.num_correct_answers - self.num_incorrect_answers
+        return calculated_points if calculated_points >= 0 else 0

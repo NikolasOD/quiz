@@ -1,3 +1,4 @@
+from django.contrib import messages
 from django.contrib.auth.mixins import LoginRequiredMixin
 from django.http import HttpResponseRedirect
 from django.shortcuts import render
@@ -99,19 +100,22 @@ class ExamResultQuestionView(LoginRequiredMixin, UpdateView):
         choices = ChoicesFormSet(data=request.POST)
         selected_choices = ['is_selected' in form.changed_data for form in choices.forms]
 
-        result = Result.objects.get(uuid=res_uuid)
-        result.update_result(order_num, question, selected_choices)
+        if not any(selected_choices) or all(selected_choices):
+            messages.error(self.request, 'You need to select at least one, but not all answers.')
+        else:
+            result = Result.objects.get(uuid=res_uuid)
+            result.update_result(order_num, question, selected_choices)
 
-        if result.state == Result.STATE.FINISHED:
-            return HttpResponseRedirect(
-                reverse(
-                    'quiz:result_details',
-                    kwargs={
-                        'uuid': uuid,
-                        'res_uuid': result.uuid
-                    }
+            if result.state == Result.STATE.FINISHED:
+                return HttpResponseRedirect(
+                    reverse(
+                        'quiz:result_details',
+                        kwargs={
+                            'uuid': uuid,
+                            'res_uuid': result.uuid
+                        }
+                    )
                 )
-            )
 
         return HttpResponseRedirect(
             reverse(
@@ -162,4 +166,33 @@ class ExamResultUpdateView(LoginRequiredMixin, UpdateView):
 
 
 class ExamResultDeleteView(LoginRequiredMixin, DeleteView):
-    pass
+    model = Result
+    template_name = 'result/delete.html'
+    context_object_name = 'result'
+    pk_url_kwarg = 'uuid'
+
+    def get_object(self, queryset=None):
+        uuid = self.kwargs.get('res_uuid')
+
+        return self.get_queryset().get(uuid=uuid)
+
+    def post(self, request, *args, **kwargs):
+        uuid = kwargs.get('uuid')
+        res_uuid = kwargs.get('res_uuid')
+        result = Result.objects.get(
+            uuid=res_uuid,
+            user=request.user,
+            exam=Exam.objects.get(uuid=uuid),
+            state=Result.STATE.NEW
+        )
+
+        result.delete()
+
+        return HttpResponseRedirect(
+            reverse(
+                'quiz:details',
+                kwargs={
+                    'uuid': uuid,
+                }
+            )
+        )
