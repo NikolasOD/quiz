@@ -23,6 +23,7 @@
 
 {% block content %}
     <div class="container">
+        {% include 'includes/messages.html' %}
         <form method="post" autocomplete="off">
             {% csrf_token %}
             {{ choices.management_form }}

@@ -1,5 +1,7 @@
 {% extends 'base.html' %}
 
+{% load calculate %}
+
 {% block title %}
     Test result
 {% endblock %}
@@ -34,7 +36,29 @@
                     </tr>
                     <tr>
                         <td>Result</td>
-                        <td>{{ result.num_correct_answers }} / {{ result.num_incorrect_answers }}</td>
+                        <td>
+                            {% expression '%1 * 100 // %2' result.num_correct_answers result.exam.question_count as level %}
+                            <div class="progress">
+                                <div class="progress-bar bg-info"
+                                     role="progressbar"
+                                     aria-label="Segment correct"
+                                     style="width: {{ level }}%"
+                                     aria-valuenow="{{ level }}"
+                                     aria-valuemin="0"
+                                     aria-valuemax="100">
+                                    <span class="bi bi-hand-thumbs-up-fill"> {{ level }}%</span>
+                                </div>
+                                <div class="progress-bar bg-warning"
+                                     role="progressbar"
+                                     aria-label="Segment incorrect"
+                                     style="width: {{ level|add:-100|negative }}%"
+                                     aria-valuenow="{{ level|add:-100|negative }}"
+                                     aria-valuemin="0"
+                                     aria-valuemax="100">
+                                    <span class="bi bi-hand-thumbs-down-fill"> {{ level|add:-100|negative }}%</span>
+                                </div>
+                            </div>
+                        </td>
                     </tr>
                     </tbody>
                 </table>
