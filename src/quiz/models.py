@@ -101,5 +101,7 @@ class Result(BaseModel):
         self.save()
 
     def calculate_points(self):
-        calculated_points = self.num_correct_answers - self.num_incorrect_answers
-        return calculated_points if calculated_points >= 0 else 0
+        # calculated_points = self.num_correct_answers - self.num_incorrect_answers
+        # return calculated_points if calculated_points >= 0 else 0
+
+        return max(0, self.num_correct_answers-self.num_incorrect_answers)
